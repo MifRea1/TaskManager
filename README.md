@@ -24,3 +24,4 @@ Things you may want to cover:
 * ...
 
 [![Build Status](https://travis-ci.org/MifRea1/TaskManager.svg?branch=develop)](https://travis-ci.org/MifRea1/TaskManager)
+[![Coverage Status](https://coveralls.io/repos/github/MifRea1/TaskManager/badge.svg?branch=develop)](https://coveralls.io/github/MifRea1/TaskManager?branch=develop)
