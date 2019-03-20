@@ -8,13 +8,10 @@ class Task < ApplicationRecord
 
   state_machine :initial => :new_task do
     event :archive do
-      transition :new_task => :archived
-      transition :released => :archived
+      transition [:new_task, :released] => :archived
     end
     event :develop do
-      transition :new_task => :in_development
-      transition :in_qa => :in_development
-      transition :in_code_review => :in_development
+      transition [:new_task, :in_qa, :in_code_review] => :in_development
     end
     event :qa do
       transition :in_development => :in_qa
