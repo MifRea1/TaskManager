@@ -22,3 +22,5 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+[![Build Status](https://travis-ci.org/MifRea1/TaskManager.svg?branch=develop)](https://travis-ci.org/MifRea1/TaskManager)
